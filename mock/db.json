@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Prueba prueba",
+      "email": "prueba@prueba.com",
+      "password": "Prueba1$"
+    }
+  ],
+  "Categories": [
+    {
+      "id": "1",
+      "categoria": "Personal",
+      "description": "Tareas relacionadas con actividades personales."
+    },
+    {
+      "id": "2",
+      "categoria": "Trabajo",
+      "description": "Tareas relacionadas con el ámbito laboral."
+    },
+    {
+      "id": "3",
+      "categoria": "Estudios",
+      "description": "Tareas relacionadas con estudios o educación."
+    }
+  ],
+  "status": [
+    {
+      "id": "1",
+      "estado": "Pendiente"
+    },
+    {
+      "id": "2",
+      "estado": "Completado"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "TITULO 1",
+      "description": "descripcion 1",
+      "dueDate": "2024-10-01",
+      "categoryId": "3",
+      "statusId": "2",
+      "userId": "1",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "título prueba2",
+      "description": "descripcion prueba2",
+      "dueDate": "2024-09-29",
+      "categoryId": "2",
+      "statusId": "2",
+      "userId": "1"
+    }
+  ]
+}
